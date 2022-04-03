@@ -42,13 +42,14 @@
     "yarn": "^1.22.17"
   },
   "engines": {
-    "node": ">=14.17.0 <16"
+    "node": ">=14.17.0"
   },
   "tnpm": {
     "mode": "yarn",
     "lockfile": "enable"
   },
   "resolutions": {
+    "node-sass": "6.0.1",
     "@builder/babel-preset-ice": "1.0.1"
   }
 }
